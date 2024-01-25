@@ -6,6 +6,7 @@ const app = Vue.createApp({
             todoModBtn: "modBtn",
             btnContainer: "btn-container",
             todoContainer: "todo-container",
+            todoListClass: "todoList-class",
             catWork: "cat-work",
             catEnt: "cat-ent",
             catApt: "cat-apt",

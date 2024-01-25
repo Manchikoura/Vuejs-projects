@@ -26,9 +26,19 @@
                 v-bind:class="todoAddBtn">Add todo</button>
         </form>
 
+         <div v-bind:style="{height :'60px', marginTop : '30px'}">
+            <span>Categories color </span>
+            <ul v-bind:style="{listStyle : 'square', display:'flex', justifyContent:'space-around'}">
+                <li v-bind:class="catWork">work</li>
+                <li v-bind:class="catEnt">Entertainment</li>
+                <li v-bind:class="catApt">Appointment</li>
+            </ul>
+         </div>
+
         <hr>
+        
         <h4>My todo list</h4>
-        <ul>
+        <ul v-bind:class="todoListClass">
             <li v-for="(todo, index) in todoList" 
                 v-bind:key="index" v-bind:class="getCategoryClass(todo.category)">
 

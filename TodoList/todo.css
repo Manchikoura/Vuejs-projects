@@ -1,6 +1,9 @@
 body{
     font-family: "montserrat", 'sans-serif';
+    display: flex;
+    justify-content: center;
 }
+
 #app{
     margin: 50px;
     padding: 50px;
@@ -17,9 +20,17 @@ hr{
     margin: 25px;
 }
 
+#app > form{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 #app > form > input{
     height: 20px;
-    width: 90%;
+    width: 100%;
     text-align: center;
     margin: 10px;
     padding: 10px;
@@ -27,7 +38,7 @@ hr{
 
 select{
     height: 35px;
-    width: 95%;
+    width: 100%;
     margin: 10px;
     text-align: center;
 }
@@ -43,7 +54,6 @@ button{
 .addBtn{
     background-color: rgb(150, 150, 150);
     color: white;
-    margin-left: 130px;
     height: 35px;
     width: 150px;
 }
@@ -62,12 +72,12 @@ button{
     width: 100px;
 }
 
-ul{
+.todoList-class{
    list-style-type: none;
    margin: auto;
 }
 
-li{
+.todoList-class > li{
     padding: 5px;
     margin-left: -40px;
     display: flex;
