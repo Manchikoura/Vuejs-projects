@@ -1,29 +1,4 @@
-# meteoapp
+Ce programme a été réalisé dans un but d'apprentissage et de prise en main de vuejs. 
+Il permet de créer une interface utilisateur à travers laquelle il est possible d'afficher les données météo liées à une ville saisie par l'utilisateur. 
 
-This template should help get you started developing with Vue 3 in Vite.
-
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Les données sont relevées depuis une API publique. 
